@@ -132,8 +132,6 @@ class AppidController extends Controller
 
 
 
-<<<<<<< HEAD
-=======
     public function actionTemplate()
     {
         /*
@@ -201,7 +199,6 @@ class AppidController extends Controller
 
 
 
->>>>>>> newbranch
 
 
 
@@ -324,18 +321,11 @@ class AppidController extends Controller
 
         if(!empty($access_token)) {
 
-<<<<<<< HEAD
-            $url = 'https://api.weixin.qq.com/cgi-bin/wxaapp/createwxaqrcode?access_token='.$access_token;
-
-//                    $data = '{"path": "pages/my/my?superwxid='.$dealer['superior_level_wxid'].'&topwxid='.$dealer['top_level_wxid'].'", "width": 430}';
-            $data = '{"path": "pages/my/my", "width": 430}';
-=======
 //            $url = 'https://api.weixin.qq.com/cgi-bin/wxaapp/createwxaqrcode?access_token='.$access_token;
             $url = 'https://api.weixin.qq.com/wxa/getwxacodeunlimit?access_token='.$access_token;
 
 //                    $data = '{"path": "pages/my/my?superwxid='.$dealer['superior_level_wxid'].'&topwxid='.$dealer['top_level_wxid'].'", "width": 430}';
             $data = '{"scene":6,"path": "pages/my/my", "width": 430}';
->>>>>>> newbranch
 
             $result = $this -> sendCmd($url,$data);
             $name = $wxid.time();
@@ -343,11 +333,7 @@ class AppidController extends Controller
 
             //存储二维码路径
 
-<<<<<<< HEAD
-            $arr = array('code'=>1,'msg'=>'./qrcode/code-'.$name.'.jpg');
-=======
             $arr = array('code'=>1,'msg'=> 'newapi/api/web/qrcode/code-'.$name.'.jpg');
->>>>>>> newbranch
             return($arr);
 
         } else {

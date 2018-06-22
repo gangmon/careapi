@@ -87,11 +87,8 @@ return [
                         'POST gettoken' => 'gettoken',
                         'GET qrcode' => 'qrcode',
                         'POST qrcode' => 'qrcode',
-<<<<<<< HEAD
-=======
                         'POST template' => 'template',
                         'POST sendmsg' => 'sendmsg',
->>>>>>> newbranch
                     ],
                 ],
                 [
