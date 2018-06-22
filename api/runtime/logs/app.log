@@ -21357,3 +21357,497 @@ $_SERVER = [
 >>>>>>> add Qrcode
 >>>>>>> newbranch
 ]
+2018-06-22 14:34:46 [::1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 49596 bytes' 
+
+in /home/gang/web/careapi/vendor/yiisoft/yii2-debug/LogTarget.php:95
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', '/home/gang/web/...', 95, Array)
+#1 /home/gang/web/careapi/vendor/yiisoft/yii2-debug/LogTarget.php(95): unserialize('<<<<<<< HEAD\na:...')
+#2 /home/gang/web/careapi/vendor/yiisoft/yii2-debug/LogTarget.php(70): yii\debug\LogTarget->updateIndexFile('/home/gang/web/...', Array)
+#3 /home/gang/web/careapi/vendor/yiisoft/yii2-debug/LogTarget.php(125): yii\debug\LogTarget->export()
+#4 /home/gang/web/careapi/vendor/yiisoft/yii2/log/Dispatcher.php(189): yii\debug\LogTarget->collect(Array, true)
+#5 /home/gang/web/careapi/vendor/yiisoft/yii2/log/Logger.php(177): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2018-06-22 14:34:46 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WyyYhtcTC3eFrqNtGAcAqgAAAAI'
+    'HTTP_HOST' => 'fg'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '26'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ORIGIN' => 'http://127.0.0.1:48698'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1806080 MicroMessenger/6.5.7 Language/zh_CN webview/'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'https://servicewechat.com/wx2f44d41564140f7f/devtools/page-frame.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Unix) OpenSSL/1.0.2o PHP/7.1.17 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'fg'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/home/gang/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/gang/web'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/home/gang/web/careapi/api/web/index.php'
+    'REMOTE_PORT' => '39388'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/careapi/api/web/index.php/appid/qrcode'
+    'SCRIPT_NAME' => '/careapi/api/web/index.php'
+    'PATH_INFO' => '/appid/qrcode'
+    'PATH_TRANSLATED' => '/home/gang/web/appid/qrcode'
+    'PHP_SELF' => '/careapi/api/web/index.php/appid/qrcode'
+    'REQUEST_TIME_FLOAT' => 1529649286.067
+    'REQUEST_TIME' => 1529649286
+]
+2018-06-22 14:34:58 [::1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 49596 bytes' 
+
+in /home/gang/web/careapi/vendor/yiisoft/yii2-debug/LogTarget.php:95
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', '/home/gang/web/...', 95, Array)
+#1 /home/gang/web/careapi/vendor/yiisoft/yii2-debug/LogTarget.php(95): unserialize('<<<<<<< HEAD\na:...')
+#2 /home/gang/web/careapi/vendor/yiisoft/yii2-debug/LogTarget.php(70): yii\debug\LogTarget->updateIndexFile('/home/gang/web/...', Array)
+#3 /home/gang/web/careapi/vendor/yiisoft/yii2-debug/LogTarget.php(125): yii\debug\LogTarget->export()
+#4 /home/gang/web/careapi/vendor/yiisoft/yii2/log/Dispatcher.php(189): yii\debug\LogTarget->collect(Array, true)
+#5 /home/gang/web/careapi/vendor/yiisoft/yii2/log/Logger.php(177): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2018-06-22 14:34:58 [::1][-][-][info][application] $_GET = [
+    'code' => '021bbKF91dlZAP1DAOF91JbTF91bbKFs'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WyyYkroUEjOgPxMIASETnwAAAAA'
+    'HTTP_HOST' => 'fg'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1806080 MicroMessenger/6.5.7 Language/zh_CN webview/'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'https://servicewechat.com/wx2f44d41564140f7f/devtools/page-frame.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Unix) OpenSSL/1.0.2o PHP/7.1.17 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'fg'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/home/gang/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/gang/web'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/home/gang/web/careapi/api/web/index.php'
+    'REMOTE_PORT' => '39522'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'code=021bbKF91dlZAP1DAOF91JbTF91bbKFs'
+    'REQUEST_URI' => '/careapi/api/web/index.php/appid?code=021bbKF91dlZAP1DAOF91JbTF91bbKFs'
+    'SCRIPT_NAME' => '/careapi/api/web/index.php'
+    'PATH_INFO' => '/appid'
+    'PATH_TRANSLATED' => '/home/gang/web/appid'
+    'PHP_SELF' => '/careapi/api/web/index.php/appid'
+    'REQUEST_TIME_FLOAT' => 1529649298.03
+    'REQUEST_TIME' => 1529649298
+]
+2018-06-22 14:35:04 [::1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 49596 bytes' 
+
+in /home/gang/web/careapi/vendor/yiisoft/yii2-debug/LogTarget.php:95
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', '/home/gang/web/...', 95, Array)
+#1 /home/gang/web/careapi/vendor/yiisoft/yii2-debug/LogTarget.php(95): unserialize('<<<<<<< HEAD\na:...')
+#2 /home/gang/web/careapi/vendor/yiisoft/yii2-debug/LogTarget.php(70): yii\debug\LogTarget->updateIndexFile('/home/gang/web/...', Array)
+#3 /home/gang/web/careapi/vendor/yiisoft/yii2-debug/LogTarget.php(125): yii\debug\LogTarget->export()
+#4 /home/gang/web/careapi/vendor/yiisoft/yii2/log/Dispatcher.php(189): yii\debug\LogTarget->collect(Array, true)
+#5 /home/gang/web/careapi/vendor/yiisoft/yii2/log/Logger.php(177): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2018-06-22 14:35:02 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WyyYlroUEjOgPxMIASEToAAAAAA'
+    'HTTP_HOST' => 'fg'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '26'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ORIGIN' => 'http://127.0.0.1:48698'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1806080 MicroMessenger/6.5.7 Language/zh_CN webview/'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'https://servicewechat.com/wx2f44d41564140f7f/devtools/page-frame.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Unix) OpenSSL/1.0.2o PHP/7.1.17 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'fg'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/home/gang/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/gang/web'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/home/gang/web/careapi/api/web/index.php'
+    'REMOTE_PORT' => '39522'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/careapi/api/web/index.php/appid/qrcode'
+    'SCRIPT_NAME' => '/careapi/api/web/index.php'
+    'PATH_INFO' => '/appid/qrcode'
+    'PATH_TRANSLATED' => '/home/gang/web/appid/qrcode'
+    'PHP_SELF' => '/careapi/api/web/index.php/appid/qrcode'
+    'REQUEST_TIME_FLOAT' => 1529649302.677
+    'REQUEST_TIME' => 1529649302
+]
+2018-06-22 14:35:08 [::1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 49596 bytes' 
+
+in /home/gang/web/careapi/vendor/yiisoft/yii2-debug/LogTarget.php:95
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', '/home/gang/web/...', 95, Array)
+#1 /home/gang/web/careapi/vendor/yiisoft/yii2-debug/LogTarget.php(95): unserialize('<<<<<<< HEAD\na:...')
+#2 /home/gang/web/careapi/vendor/yiisoft/yii2-debug/LogTarget.php(70): yii\debug\LogTarget->updateIndexFile('/home/gang/web/...', Array)
+#3 /home/gang/web/careapi/vendor/yiisoft/yii2-debug/LogTarget.php(125): yii\debug\LogTarget->export()
+#4 /home/gang/web/careapi/vendor/yiisoft/yii2/log/Dispatcher.php(189): yii\debug\LogTarget->collect(Array, true)
+#5 /home/gang/web/careapi/vendor/yiisoft/yii2/log/Logger.php(177): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2018-06-22 14:35:07 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WyyYm7oUEjOgPxMIASEToQAAAAA'
+    'HTTP_HOST' => 'fg'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '22'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ORIGIN' => 'http://127.0.0.1:48698'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1806080 MicroMessenger/6.5.7 Language/zh_CN webview/'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'https://servicewechat.com/wx2f44d41564140f7f/devtools/page-frame.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Unix) OpenSSL/1.0.2o PHP/7.1.17 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'fg'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/home/gang/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/gang/web'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/home/gang/web/careapi/api/web/index.php'
+    'REMOTE_PORT' => '39522'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/careapi/api/web/index.php/appid/template'
+    'SCRIPT_NAME' => '/careapi/api/web/index.php'
+    'PATH_INFO' => '/appid/template'
+    'PATH_TRANSLATED' => '/home/gang/web/appid/template'
+    'PHP_SELF' => '/careapi/api/web/index.php/appid/template'
+    'REQUEST_TIME_FLOAT' => 1529649307.524
+    'REQUEST_TIME' => 1529649307
+]
+2018-06-22 14:35:11 [::1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 49596 bytes' 
+
+in /home/gang/web/careapi/vendor/yiisoft/yii2-debug/LogTarget.php:95
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', '/home/gang/web/...', 95, Array)
+#1 /home/gang/web/careapi/vendor/yiisoft/yii2-debug/LogTarget.php(95): unserialize('<<<<<<< HEAD\na:...')
+#2 /home/gang/web/careapi/vendor/yiisoft/yii2-debug/LogTarget.php(70): yii\debug\LogTarget->updateIndexFile('/home/gang/web/...', Array)
+#3 /home/gang/web/careapi/vendor/yiisoft/yii2-debug/LogTarget.php(125): yii\debug\LogTarget->export()
+#4 /home/gang/web/careapi/vendor/yiisoft/yii2/log/Dispatcher.php(189): yii\debug\LogTarget->collect(Array, true)
+#5 /home/gang/web/careapi/vendor/yiisoft/yii2/log/Logger.php(177): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2018-06-22 14:35:11 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WyyYn7oUEjOgPxMIASETogAAAAA'
+    'HTTP_HOST' => 'fg'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '173'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ORIGIN' => 'http://127.0.0.1:48698'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1806080 MicroMessenger/6.5.7 Language/zh_CN webview/'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'https://servicewechat.com/wx2f44d41564140f7f/devtools/page-frame.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Unix) OpenSSL/1.0.2o PHP/7.1.17 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'fg'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/home/gang/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/gang/web'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/home/gang/web/careapi/api/web/index.php'
+    'REMOTE_PORT' => '39522'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/careapi/api/web/index.php/appid/sendmsg'
+    'SCRIPT_NAME' => '/careapi/api/web/index.php'
+    'PATH_INFO' => '/appid/sendmsg'
+    'PATH_TRANSLATED' => '/home/gang/web/appid/sendmsg'
+    'PHP_SELF' => '/careapi/api/web/index.php/appid/sendmsg'
+    'REQUEST_TIME_FLOAT' => 1529649311.132
+    'REQUEST_TIME' => 1529649311
+]
+2018-06-22 14:35:22 [::1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 49596 bytes' 
+
+in /home/gang/web/careapi/vendor/yiisoft/yii2-debug/LogTarget.php:95
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', '/home/gang/web/...', 95, Array)
+#1 /home/gang/web/careapi/vendor/yiisoft/yii2-debug/LogTarget.php(95): unserialize('<<<<<<< HEAD\na:...')
+#2 /home/gang/web/careapi/vendor/yiisoft/yii2-debug/LogTarget.php(70): yii\debug\LogTarget->updateIndexFile('/home/gang/web/...', Array)
+#3 /home/gang/web/careapi/vendor/yiisoft/yii2-debug/LogTarget.php(125): yii\debug\LogTarget->export()
+#4 /home/gang/web/careapi/vendor/yiisoft/yii2/log/Dispatcher.php(189): yii\debug\LogTarget->collect(Array, true)
+#5 /home/gang/web/careapi/vendor/yiisoft/yii2/log/Logger.php(177): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2018-06-22 14:35:21 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WyyYqVWcGpuQqY-79mBLiQAAAAU'
+    'HTTP_HOST' => 'fg'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '96'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ORIGIN' => 'http://127.0.0.1:48698'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1806080 MicroMessenger/6.5.7 Language/zh_CN webview/'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'https://servicewechat.com/wx2f44d41564140f7f/devtools/page-frame.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Unix) OpenSSL/1.0.2o PHP/7.1.17 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'fg'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/home/gang/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/gang/web'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/home/gang/web/careapi/api/web/index.php'
+    'REMOTE_PORT' => '39736'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/careapi/api/web/index.php/posts'
+    'SCRIPT_NAME' => '/careapi/api/web/index.php'
+    'PATH_INFO' => '/posts'
+    'PATH_TRANSLATED' => '/home/gang/web/posts'
+    'PHP_SELF' => '/careapi/api/web/index.php/posts'
+    'REQUEST_TIME_FLOAT' => 1529649321.507
+    'REQUEST_TIME' => 1529649321
+]
+2018-06-22 14:35:37 [::1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 49596 bytes' 
+
+in /home/gang/web/careapi/vendor/yiisoft/yii2-debug/LogTarget.php:95
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', '/home/gang/web/...', 95, Array)
+#1 /home/gang/web/careapi/vendor/yiisoft/yii2-debug/LogTarget.php(95): unserialize('<<<<<<< HEAD\na:...')
+#2 /home/gang/web/careapi/vendor/yiisoft/yii2-debug/LogTarget.php(70): yii\debug\LogTarget->updateIndexFile('/home/gang/web/...', Array)
+#3 /home/gang/web/careapi/vendor/yiisoft/yii2-debug/LogTarget.php(125): yii\debug\LogTarget->export()
+#4 /home/gang/web/careapi/vendor/yiisoft/yii2/log/Dispatcher.php(189): yii\debug\LogTarget->collect(Array, true)
+#5 /home/gang/web/careapi/vendor/yiisoft/yii2/log/Logger.php(177): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2018-06-22 14:35:37 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WyyYuYTqSPIRq1HrcMYtdgAAAAE'
+    'HTTP_HOST' => 'fg'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1806080 MicroMessenger/6.5.7 Language/zh_CN webview/'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'https://servicewechat.com/wx2f44d41564140f7f/devtools/page-frame.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Unix) OpenSSL/1.0.2o PHP/7.1.17 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'fg'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/home/gang/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/gang/web'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/home/gang/web/careapi/api/web/index.php'
+    'REMOTE_PORT' => '39876'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/careapi/api/web/index.php/posts/search'
+    'SCRIPT_NAME' => '/careapi/api/web/index.php'
+    'PATH_INFO' => '/posts/search'
+    'PATH_TRANSLATED' => '/home/gang/web/posts/search'
+    'PHP_SELF' => '/careapi/api/web/index.php/posts/search'
+    'REQUEST_TIME_FLOAT' => 1529649337.574
+    'REQUEST_TIME' => 1529649337
+]
+2018-06-22 14:39:04 [::1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 49596 bytes' 
+
+in /home/gang/web/careapi/vendor/yiisoft/yii2-debug/LogTarget.php:95
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', '/home/gang/web/...', 95, Array)
+#1 /home/gang/web/careapi/vendor/yiisoft/yii2-debug/LogTarget.php(95): unserialize('<<<<<<< HEAD\na:...')
+#2 /home/gang/web/careapi/vendor/yiisoft/yii2-debug/LogTarget.php(70): yii\debug\LogTarget->updateIndexFile('/home/gang/web/...', Array)
+#3 /home/gang/web/careapi/vendor/yiisoft/yii2-debug/LogTarget.php(125): yii\debug\LogTarget->export()
+#4 /home/gang/web/careapi/vendor/yiisoft/yii2/log/Dispatcher.php(189): yii\debug\LogTarget->collect(Array, true)
+#5 /home/gang/web/careapi/vendor/yiisoft/yii2/log/Logger.php(177): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2018-06-22 14:39:03 [::1][-][-][info][application] $_GET = [
+    'code' => '071Sf62P09h86c2hqD3P0WCr2P0Sf62-'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WyyZh2yKXiI6crypKNMsTwAAAAc'
+    'HTTP_HOST' => 'fg'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1806080 MicroMessenger/6.5.7 Language/zh_CN webview/'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'https://servicewechat.com/wx2f44d41564140f7f/devtools/page-frame.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Unix) OpenSSL/1.0.2o PHP/7.1.17 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'fg'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/home/gang/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/gang/web'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/home/gang/web/careapi/api/web/index.php'
+    'REMOTE_PORT' => '41636'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'code=071Sf62P09h86c2hqD3P0WCr2P0Sf62-'
+    'REQUEST_URI' => '/careapi/api/web/index.php/appid?code=071Sf62P09h86c2hqD3P0WCr2P0Sf62-'
+    'SCRIPT_NAME' => '/careapi/api/web/index.php'
+    'PATH_INFO' => '/appid'
+    'PATH_TRANSLATED' => '/home/gang/web/appid'
+    'PHP_SELF' => '/careapi/api/web/index.php/appid'
+    'REQUEST_TIME_FLOAT' => 1529649543.736
+    'REQUEST_TIME' => 1529649543
+]
