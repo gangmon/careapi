@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bdf58b0d-1d0c-4bc9-99f1-f723c60aec00" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/careapi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/careapi.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/controllers/AppidController.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/controllers/AppidController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/controllers/PostController.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,11 +16,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AppidController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AppidController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/controllers/AppidController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="718">
               <caret line="335" column="46" selection-start-line="335" selection-start-column="46" selection-end-line="335" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PostController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/api/controllers/PostController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="645">
+              <caret line="46" column="170" selection-start-line="46" selection-start-column="170" selection-end-line="46" selection-end-column="170" />
             </state>
           </provider>
         </entry>
@@ -37,6 +43,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/api/controllers/AppidController.php" />
+        <option value="$PROJECT_DIR$/api/controllers/PostController.php" />
       </list>
     </option>
   </component>
@@ -142,10 +149,10 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="67" />
-    <option name="y" value="27" />
-    <option name="width" value="1280" />
-    <option name="height" value="659" />
+    <option name="x" value="366" />
+    <option name="y" value="121" />
+    <option name="width" value="1440" />
+    <option name="height" value="780" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -166,6 +173,12 @@
               <item name="careapi" type="b2602c69:ProjectViewProjectNode" />
               <item name="careapi" type="462c0819:PsiDirectoryNode" />
               <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="careapi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="careapi" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="careapi" type="b2602c69:ProjectViewProjectNode" />
@@ -207,15 +220,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1529632375152</updated>
-      <workItem from="1529632376667" duration="1754000" />
+      <workItem from="1529632376667" duration="2978000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1754000" />
+    <option name="totallyTimeSpent" value="2978000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1853" height="1055" extended-state="7" />
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17269292" />
@@ -250,6 +263,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="718">
           <caret line="335" column="46" selection-start-line="335" selection-start-column="46" selection-end-line="335" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/controllers/PostController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="46" column="170" selection-start-line="46" selection-start-column="170" selection-end-line="46" selection-end-column="170" />
         </state>
       </provider>
     </entry>
